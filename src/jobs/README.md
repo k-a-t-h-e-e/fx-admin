@@ -23,7 +23,7 @@ export const config: ScheduledJobConfig = {
 };
 ```
 
-A scheduled job is defined in two parts a `handler` and a `config`. The `handler` is a function which is invoked when the job is scheduled. The `config` is an object which defines the name of the job, the schedule, and an optional data object.
+A scheduled job is defined in two parts a `handler` and a `config`. The `handler` is a function which is invoked when the job is scheduled. The `config` is an object which defines the name of the job, the schedule, and an optional data object. 
 
 The `handler` is a function which takes one parameter, an `object` of type `ScheduledJobArgs` with the following properties:
 
